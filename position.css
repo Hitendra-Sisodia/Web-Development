@@ -1,0 +1,41 @@
+/* body{
+    margin: 0%;
+} */
+.wrapper{
+    width: 2000px;
+    height:2000px;
+    background-color: yellow;
+}
+
+#div1,#div2,#div3,#div4,#div5{
+    display: inline-block;
+    height:200px;
+    width:200px;
+    background-color: aqua;
+    margin-top: 3px;
+    border: 1px solid black;
+}
+
+/* Relative position example div3*/
+#div3{
+    position: relative;
+    left: 50px;
+    top: 100px;
+}
+
+/* Fixed position example div1 */
+#div1{
+    position: fixed;
+    left: 40px;
+}
+
+#div4{
+    position: absolute;
+    left: 500px;
+    top: 500px;
+}
+
+#div5{
+    position:sticky;
+}
+

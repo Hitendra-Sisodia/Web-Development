@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.container{
+    background-color: orchid;
+    height: 700px;
+    display: grid;
+    /* grid-template-columns: 100px 200px 300px;
+    grid-template-columns: 100px repeat(3,1fr); Flexible Grid using fr */
+    grid-template-columns: 20vh 5fr 1fr;
+    grid-template-rows: 10vh 1fr 30px;
+    /* Gap Between grid*/
+    gap: 3px;
+}
+.box{
+    background-color: aqua;
+    border: 3px solid black;
+}
+
+#div1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+#div3{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#div4{
+    grid-row-start: 3;
+    grid-row-end:4;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}

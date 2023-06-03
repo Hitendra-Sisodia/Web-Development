@@ -1,0 +1,44 @@
+.container{
+    height: 500px;
+    border: 1px solid green;
+    display: flex;
+    /* Flex Direction */
+    flex-direction: row;
+    /* Flex Wrap */
+    flex-wrap:wrap;
+    /* Justify Content: works w.r.t to x axis (main axis)*/
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content:center;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    /* Align itms works w.r.t to y axis (cross axis) */
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+    align-items: stretch;
+    align-items: baseline;
+    /* gap add px space between content only */
+    gap: 20px;
+    row-gap: 10px;
+    column-gap:5px;
+    /* Align content works w.r.t to rows */
+    align-content: flex-start;
+    align-content: flex-end;
+    align-content:center;
+    align-content: space-around;
+    align-content: space-between;
+    align-content: space-evenly;
+}
+
+.box{
+    border:1px solid black;
+    background-color: aquamarine;
+    width: 50px;
+}
+
+#box1{
+    width: 100px;
+    height: 100px;
+}

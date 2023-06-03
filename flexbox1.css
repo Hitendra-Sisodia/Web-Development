@@ -1,0 +1,18 @@
+.container{
+    border:1px solid black;
+    background-color:burlywood;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    gap: 10px;
+}
+.box{
+    border: 1px solid black;
+    background-color: aqua;
+}

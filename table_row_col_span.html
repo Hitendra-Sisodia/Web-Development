@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        tables rowspan, colspan practice
+    </title>
+    <style>
+        table,th,tr,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Row Span and Col span Example</h1>
+        <table>
+            <colgroup>
+                <col span="2" style="background-color: aqua;">
+                <col span="1">
+                <col span="1" style="background-color: orange;">
+            </colgroup>
+            <tr>
+                <td rowspan="2">State of Health</td>
+                <td colspan="2">Fasting value</td>
+                <td>after eating</td>
+            </tr>
+            <tr>
+                <td rowspan="1">minimum</td>
+                <td rowspan="1">maximum</td>
+                <td rowpsan="1">2 hr after eating</td>
+            </tr>
+            <tr>
+                <td>healthy</td>
+                <td>70</td>
+                <td>100</td>
+                <td>less than 140</td>
+            </tr>
+            <tr>
+                <td>Pre-diab</td>
+                <td>101</td>
+                <td>126</td>
+                <td>140 to 200</td>
+            </tr>
+            <tr>
+                <td rowspan="1">Diabetes</td>
+                <td rowspan="1">More than 126</td>
+                <td rowspan="1">NA</td>
+                <td rowspan="1">Mote than 200</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
